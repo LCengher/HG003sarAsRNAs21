@@ -1,5 +1,5 @@
 #LiviuCengher
-#CheungLab December
+#CheungLab December 2018
 
 #For every sRNA, looks for a close sarA ChIP peak
 #A) upstream of + sRNAs ~500bp: Positive strand start -500
