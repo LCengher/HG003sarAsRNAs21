@@ -17,7 +17,7 @@ PosN <- as.numeric(100)
 
 ## Load Table
 sRNA_8325 <-read.csv("sRNAs_NTCT8325.csv")
-Pull_DT <- read.csv("ChIP Pulldown Results MinO_1.csv")
+Pull_DT <- read.csv("ChIP Pulldown Results (Threshold 0.1).csv")
 
 ## Check Structure and view tables
 str(sRNA_8325)
