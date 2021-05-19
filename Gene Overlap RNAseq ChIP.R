@@ -13,14 +13,14 @@ library(stringr)
 Distance_sRNAs<- 100 #PosN #Use PosN instead of a defined integer for integrated Program
 
 #Read in Files
-sarA_Seq_2h <- read.csv("sarA_KO_HG003_Felden_RNASeq_2h.csv", 
+sarA_Seq_2h <- read.csv("sarA_KO_HG003_RNASeq_2h.csv", 
                         stringsAsFactors=FALSE)
 sarA_Seq_2h$FPKM.WT<- as.numeric(sarA_Seq_2h$FPKM.WT)
 sarA_Seq_2h$FPKM.SarA<- as.numeric(sarA_Seq_2h$FPKM.SarA)
 str(sarA_Seq_2h)
 View(sarA_Seq_2h)
 
-sarA_Seq_4h30min <- read.csv("sarA_KO_HG003_Felden_RNASeq_4h30min.csv", 
+sarA_Seq_4h30min <- read.csv("sarA_KO_HG003_RNASeq_4h30min.csv", 
                              stringsAsFactors=FALSE)
 sarA_Seq_4h30min$FPKM.WT<- as.numeric(sarA_Seq_4h30min$FPKM.WT)
 sarA_Seq_4h30min$FPKM.SarA<- as.numeric(sarA_Seq_4h30min$FPKM.SarA)
