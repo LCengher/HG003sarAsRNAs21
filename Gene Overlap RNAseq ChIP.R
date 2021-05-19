@@ -27,7 +27,7 @@ sarA_Seq_4h30min$FPKM.SarA<- as.numeric(sarA_Seq_4h30min$FPKM.SarA)
 str(sarA_Seq_4h30min)
 View(sarA_Seq_4h30min)
 
-Pull_DT <-read.csv("ChIP Pulldown Results MinO_1.csv")# I'm not using this now, but could be useful in the future. Is already in the finding sRNAs program
+Pull_DT <-read.csv("ChIP Pulldown Results (Threshold 0.1).csv")# I'm not using this now, but could be useful in the future. Is already in the finding sRNAs program
 
 colnames(sarA_Seq_2h)
 colnames(sarA_Seq_4h30min)
